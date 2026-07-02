@@ -64,7 +64,7 @@ public struct DemoCalculatorScreen: View {
                     .pickerStyle(.segmented)
                 }
 
-                Section(header: Text("Result (KMPSDK) CiCD")) {
+                Section(header: Text("Result (KMPSDK) CiCDNew")) {
                     HStack {
                         Text("Value")
                         Spacer()
