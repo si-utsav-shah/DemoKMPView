@@ -16,7 +16,7 @@ jobs:
         uses: peter-evans/repository-dispatch@v3
         with:
           token: ${{ secrets.CROSS_REPO_PAT }}
-          repository: si-utsav-shah/DemoApp.git
+          repository: si-utsav-shah/DemoApp
           event-type: sdk-pr-build
           client-payload: |
             {
